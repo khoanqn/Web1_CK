@@ -1,0 +1,64 @@
+:root {
+  --w1-brown: rgba(47, 23, 15, 0.9);
+  --w1-orange: #e6a756;
+}
+h1,
+h2 {
+  font-weight: lighter;
+}
+body {
+  background: url(../img/bg.jpg);
+}
+
+.bg-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: black;
+}
+
+.text-orange {
+  color: var(--w1-orange);
+}
+.bg-brown {
+  background-color: var(--w1-brown);
+  color: white;
+}
+.bg-orange {
+  background-color: var(--w1-orange);
+  color: white;
+}
+#menu a {
+  color: white;
+  font-weight: bold;
+}
+#menu a.active {
+  color: var(--w1-orange);
+}
+#intro div {
+  top: 5rem;
+  position: absolute;
+}
+#about div{
+  position: relative;
+  top: -4rem;
+  left: 12.5%;
+}
+
+/* Cau 2 */
+
+form {
+  border-style:double;
+  border-width: 1rem;
+  border-color: var(--w1-orange);
+}
+
+/* Cau 3 */
+.box-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box-left{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
